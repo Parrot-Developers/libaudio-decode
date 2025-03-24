@@ -1,0 +1,5 @@
+    config ADEC_FDK_AAC
+        bool "adec fdk-aac implementation"
+            default false
+        help
+            Enable the Fraunhofer FDK AAC implementation in libaudio-decode.
