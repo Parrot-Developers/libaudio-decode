@@ -43,3 +43,14 @@ The library is designed to run on a _libpomp_ event loop (_pomp_loop_, see
 _libpomp_ documentation). All API functions must be called from the _pomp_loop_
 thread. All callback functions (frame_output, flush or stop) are called from
 the _pomp_loop_ thread.
+
+## Testing
+
+The library can be tested using the provided _adec_ command-line tool which
+takes as input an AAC-encoded file and can optionally output a raw WAV file.
+
+To build the tool, enable _adec_ in the Alchemy build configuration.
+
+For a list of available options, run
+
+    $ adec -h
